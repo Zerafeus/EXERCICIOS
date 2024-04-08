@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Clínica Médica Bem-Estar - Agendamento</title>
+</head>
+
+<body>
+    <main>
+
+        <h2>Clínica Médica Bem-Estar - Agendamento de consulta</h2>
+
+        <form action="">
+
+            <fieldset>
+
+                <legend>Informações Pessoais</legend>
+
+                <label for="name">Nome Completo: </label>
+                <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                <br>
+                <label for="email">Endereço de Email: </label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email" required>
+                <br>
+                <label for="tel">Telefone: </label>
+                <input type="text" name="tel" id="tel" placeholder="Digite seu telefone" required>
+                <br>
+                <label for="age">Idade: </label>
+                <input type="text" name="age" id="age" placeholder="Digite sua idade" required>
+                <br>
+
+                <label for="especialidade">Especialidade medica</label>
+                <select name="especialidade" id="especialidade" required>
+                    <option value="">Selecione uma especialidade</option>
+                    <option value="cardiologia">Cardiologia</option>
+                    <option value="dermatologia">Dermatologia</option>
+                    <option value="ginecologia">Ginecologia</option>
+                    <option value="Pediatria">Pediatria</option>
+                </select>
+
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Preferências de Horário</legend>
+
+                <label for="data">Data preferencial:
+                </label>
+                <input type="date" name="data" id="data" required>
+                <br>
+                <label for="tempo">Horario preferencial: </label>
+                <input type="time" name="tempo" id="tempo" required>
+            </fieldset>
+
+            <fieldset>
+
+                <legend>Observações Adicionais</legend>
+
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Digite aqui suas observações."
+                    required></textarea>
+
+            </fieldset>
+
+           <button type="submit"> Agendar Consulta </button>
+
+
+        </form>
+
+    </main>
+
+    <footer>Denis Henrique Pinheiro de Souza Vieira RGM 37431943</footer>
+
+</body>
+
+</html>
